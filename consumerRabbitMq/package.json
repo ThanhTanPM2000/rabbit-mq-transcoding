@@ -1,0 +1,18 @@
+{
+  "name": "rabbitexchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "consumeFromRabbitMQ.js",
+  "scripts": {
+    "start": "node --experimental-modules consumeFromRabbitMQ.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^6.10.1",
+    "amqplib": "^0.10.3",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1"
+  }
+}
